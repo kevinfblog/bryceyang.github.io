@@ -1,11 +1,11 @@
 # Basic
-title: V
+title: Kevin
 subtitle: 
-welcome_message: <a href="https://github.com/bryceyang" target="_blank">Welcome</a>
-description: V is my learning record.
-creator: <a href="http://bryceyang.github.io">@bryceyang</a>
+welcome_message: <a href="https://github.com/kevinfblog" target="_blank">Welcome</a>
+description: Kevin blog.
+creator: <a href="http://kevinfblog.github.io">@kevin</a>
 
-url: "http://bryceyang.github.io"
+url: "http://kevinfblog.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -36,16 +36,13 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: bryceyang
+    disqus: kevin
     # duoshuo: 
     
 # Social
 social:
-    weibo: poplar40
-    github: bryceyang
-    twitter: poplar50
-    gplus: 108486653827211515463
-    mail: kaieryang@hotmail.com
+    github: kevinfblog
+    mail: iamkevinf@gmail.com
 
 # Google Analytics
 #ga:
