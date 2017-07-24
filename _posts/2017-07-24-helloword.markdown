@@ -11,5 +11,5 @@ tag: Test
 ```
 std::cout << "Hello World" << std::endl;
 ```
-![效果图](https://github.com/kevinfblog/kevinfblog.github.io/tree/master/assets/images/avatar.jpg)
+![效果图](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/images/avatar.jpg)
 
