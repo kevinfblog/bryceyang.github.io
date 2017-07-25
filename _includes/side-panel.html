@@ -16,14 +16,14 @@
         {% if site.welcome_message %}
         <p class="panel-cover__description">{{ site.welcome_message }}</p>
         {% endif %}
-        
+
         <div class="navigation-wrapper">
           <div>
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
-                <li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
+                <!--li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li--!>
                 {% for item in site.nav %}
-                  <li class="navigation__item"><a href="{{item.url}}" target="_blank" title="{{item.description}}">{{item.tag}}</a></li>
+                  <li class="navigation__item"><a href="{{item.url}}" target="_blank" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
               </ul>
             </nav>
