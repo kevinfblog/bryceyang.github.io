@@ -13,6 +13,7 @@ tag: Math
 >
 > ![图1](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/vectorcross_1.png)
 
+```
 |    x1    |    |    x2    |
 
 |    y1    | X  |    y2    | = 
@@ -34,3 +35,4 @@ tag: Math
 （i、j、k分别为空间中相互垂直的三条坐标轴的单位向量）。
 
 叉乘的意义就是通过两个向量来确定一个新的向量，该向量与前两个向量都垂直
+```
