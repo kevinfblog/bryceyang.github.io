@@ -22,7 +22,7 @@ gems:
 # The blog button should not be removed.
 blog_button:
     title: Blog
-    description: Visit blog
+    description: Kevin blog
 
 # Navigation buttons in the front page.
 #nav:
