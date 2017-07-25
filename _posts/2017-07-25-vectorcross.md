@@ -13,12 +13,11 @@ tag: Math
 >
 > ![图1](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/vectorcross_1.png)
 
- _        _      _        _
 |    x1    |    |    x2    |
 
 |    y1    | X  |    y2    | = 
 
-|_   z1   _|    |_   z2   _|
+|    z1    |    |    z2    |
 
 向量a·向量b=a1a2+b1b2+c1c2 
 
