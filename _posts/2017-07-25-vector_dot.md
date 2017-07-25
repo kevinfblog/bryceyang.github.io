@@ -19,6 +19,7 @@ tag: Math
 >
 
 ![图1](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/vectordot_1.png)
+
 图(a)中向量AC投影到v
 
 图(b)定义了![mip_0](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/vectordot_mip_0.png)由向量v顺时针旋转90°得到.从c向L做垂线,可以将c分解成沿v方向的部分Kv和垂直v方向的部分![mip_1](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/vectordot_mip_1.png),其中K M是特定的常数.即:
