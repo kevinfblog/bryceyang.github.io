@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Word
+title: Hello World
 date: 2017-07-24 0:58:00.000000000 +9:00
 tag: Test
 ---
