@@ -13,10 +13,13 @@ tag: Math
 
 ---
 已知量
+
 * 原点 origin
 * 方向 ray
 * y坐标
+
 求
+
 * 在xz平面上的交点out
 
 ---
