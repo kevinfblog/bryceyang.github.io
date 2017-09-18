@@ -2,7 +2,7 @@
 layout: post
 title: RingBuffer-环形缓冲区
 date: 2017-09-18 18:07:00.000000000 +9:00
-tag: Math
+tag: Util
 ---
 
 >
