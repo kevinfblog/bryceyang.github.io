@@ -204,28 +204,34 @@ $`
 (u\cdot v)^{(2)}=u''v+2u'v'+uv''=u^{(2)}v^{(0)}+2u^{(1)}v^{(1)}+u^{(0)}v^{(0)}
 $`
 其中`$v^{(0)}=v$`,`$u^{(0)}=u$`,对上式在求导一次,变为
+
 `$
 \begin{array}{l}
 (u\cdot v)^{(3)}=[u^{(2)}v^{(0)}]'+2[u^{(1)}v^{(1)}]'+[u^{(0)}v^{(2)}]' \\\\
 \quad\quad\quad\quad=u^{(3)}v^{(0)}+3u^{(2)}v^{(1)}+3u^{(1)}v^{(2)}+u{(0)}v^{(3)}
 \end{array}
 $`
+
 依次求导`$n$`次,容易得到按下述规则展开的式子
+
 `$
 \begin{array}{l}
 (u\cdot v)^{(n)}=u^{(n)}v^{(0)}+nu^{(n-1)}v^{(1)}+\frac{n(n-1)}{1\cdot2}u^{(n-2)}v^{(2)}+\cdots+ \\\\
 \quad\quad\quad\quad\quad\frac{n(n-1)\cdots(n-k+1)}{k!}u^{(n-k)}v^{(k)}+\cdots+u^{(0)}v^{(n)}
 \end{array}
 $`
+
 此式也可以用连加符号`$\sum$`表示为
 `$
 (u\cdot v)^{(n)}=\sum_{k=0}^nC_n^kv^{(k)}u^{(n-k)}
 $`
 #### 3.5 函数的微分及其应用
 **定义3.5.1** 设函数`$y=f(x)$`在某个区间内有定义,如果在点`$x$`出函数的增量`$\Delta y$`可以表示为
-```math
+
+`$
 \Delta y=f(x+\Delta x)-f(x)=\varphi(x)\cdot\Delta x+o(\Delta x)
-```
+$`
+
 其中函数`$\varphi(x)$`也可以是常数,而且他与`$\Delta x$`无关,当`$\Delta x\rightarrow0$`时`$o(\Delta x)$`是比`$\Delta x$`高阶的无穷小,于是我们称函数`$y=f(x)$`在点`$x$`可微,并将`$\Delta y$`的线性部分`$\varphi(x)\cdot\Delta x$`叫做函数`$y=f(x)$`在点`$x$`的**微分**,记作`$df(x)$`即
 `$
 dy=df(x)=\varphi(x)\cdot\Delta x
