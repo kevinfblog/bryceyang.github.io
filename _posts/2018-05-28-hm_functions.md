@@ -87,6 +87,7 @@ $`
 **定理:** 函数`$y=f(x)$`,在其定义区间`$D$`内单调增加(或减少),其值域为`$Z$`,则必然灿在反函数`$x=f^{-1}(y)$`,在他的`$Z$`内也单调增加(或减少)
 #### 1.5.1 基本初等函数
 **基本初等函数如下**
+
 名称 | 符号 | 图形 | 定义域 | 简单性质
 ---|---|---|---|---
 常数函数 |`$y=c$`|![y=c](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/gs_1.5_1.png)|`$(-\infty,+\infty)$`|偶函数
@@ -101,5 +102,6 @@ $`
 ||`$y=\arccos x$`|![y=arccos(x)](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/gs_1.5_10.png)|`$[-1,1]$`|有界函数 `$0\leq\arccos x\leq\pi$`;单调减少|
 ||* `$y=\arctan x$`|![y=arctan(x)](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/gs_1.5_11.png)|`$(-\infty,+\infty)$`|有界函数 `$|\arctan x| < \frac{\pi}{2}$`;单调增加;奇函数|
 ||* `$y=arccot\ x$`|![y=arccot(x)](https://raw.githubusercontent.com/kevinfblog/kevinfblog.github.io/master/assets/blog-add/gs_1.5_12.png)|`$(-\infty,+\infty)$`|有界函数 `$0 < arccot\ x < \pi$`;单调减少|
+
 #### 1.5.2 初等函数
 **定义:** 由**基本初等函数**经过有限次四则运算和有有限次复合构成并可以用一个式子表示的函数称为**初等函数**
