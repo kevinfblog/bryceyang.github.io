@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 高等数学 函数
+title: 高等数学 导数
 date: 2018-05-28 11:24:00.000000000 +9:00
 tag: Math
 ---
