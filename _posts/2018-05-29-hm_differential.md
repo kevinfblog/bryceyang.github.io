@@ -61,3 +61,23 @@ $$f(x)=f(x_0)+f'(x_0+\theta\cdot(x-x_0))\cdot(x-x_0)\tag{4.1.7}$$
 &ensp;&ensp;(2) 在开区间$(a,b)$内可导,且$g'(x)\neq0,x\in(a,b)$;  
 则在区间$(a,b)$内至少存在一点$\xi$,使得  
 $$\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\xi)}{g'(\xi)}\quad\quad(a<\xi<b)\tag{}$$  
+
+#### 4.2 未定式极限的计算(罗必塔法则)
+
+##### 定义:
+&ensp;&ensp;函数$f(x)$与$g(x)$同时趋于零或同时趋于无穷大时,极限$lim\frac{f(x)}{g(x)}$可能存在,也可能不存在.通常,我们称这种极限形式为**未定式**,并记作$\frac{0}{0}$,或者$\frac{\infty}{\infty}$  
+##### 4.2.1 两个无穷小之比的极限($\frac{0}{0}$型)
+&ensp;&ensp;1. $x\rightarrow x_0$的情形
+&ensp;&ensp;**定理4.2.1** 如果函数$f(x)$与$g(x)$满足:  
+&ensp;&ensp;(1) 当$x\rightarrow x_0$时,函数$f(x),g(x)$均趋于零;  
+&ensp;&ensp;(2) 两个函数在$x_0$的去心邻域内可导,且$g'(x)\neq0$;  
+&ensp;&ensp;(3) 两个函数的导数之比的极限$\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}$存在(或无穷大),  
+则  
+$$\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}\tag{}$$  
+&ensp;&ensp;2. $x\rightarrow\infty$的情形
+&ensp;&ensp;**定理4.2.1** 如果函数$f(x)$与$g(x)$满足:  
+&ensp;&ensp;(1) 在区间$(a,+\infty)$内连续,且$\lim_{x\rightarrow+\infty}f(x)=\lim_{x\rightarrow+\infty}g(x)=0$;  
+&ensp;&ensp;(2) 在区间$(a,+\infty)$内可导,且$g'(x)\neq0$;  
+&ensp;&ensp;(3) $\lim_{x\rightarrow+\infty}\frac{f'(x)}{g'(x)}$存在(或无穷大)  
+则  
+$$\lim_{x\rightarrow+\infty}\frac{f(x)}{g(x)}=\lim_{x\rightarrow+\infty}\frac{f'(x)}{g'(x)}\tag{}$$  
