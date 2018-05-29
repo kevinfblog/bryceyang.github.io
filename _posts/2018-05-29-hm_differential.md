@@ -67,17 +67,34 @@ $$\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\xi)}{g'(\xi)}\quad\quad(a<\xi<b)\tag{}$$
 ##### 定义:
 &ensp;&ensp;函数$f(x)$与$g(x)$同时趋于零或同时趋于无穷大时,极限$lim\frac{f(x)}{g(x)}$可能存在,也可能不存在.通常,我们称这种极限形式为**未定式**,并记作$\frac{0}{0}$,或者$\frac{\infty}{\infty}$  
 ##### 4.2.1 两个无穷小之比的极限($\frac{0}{0}$型)
-&ensp;&ensp;1. $x\rightarrow x_0$的情形
+&ensp;&ensp;1. $x\rightarrow x_0$的情形  
 &ensp;&ensp;**定理4.2.1** 如果函数$f(x)$与$g(x)$满足:  
 &ensp;&ensp;(1) 当$x\rightarrow x_0$时,函数$f(x),g(x)$均趋于零;  
 &ensp;&ensp;(2) 两个函数在$x_0$的去心邻域内可导,且$g'(x)\neq0$;  
 &ensp;&ensp;(3) 两个函数的导数之比的极限$\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}$存在(或无穷大),  
 则  
 $$\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}\tag{}$$  
-&ensp;&ensp;2. $x\rightarrow\infty$的情形
+&ensp;&ensp;2. $x\rightarrow\infty$的情形  
 &ensp;&ensp;**定理4.2.1** 如果函数$f(x)$与$g(x)$满足:  
 &ensp;&ensp;(1) 在区间$(a,+\infty)$内连续,且$\lim_{x\rightarrow+\infty}f(x)=\lim_{x\rightarrow+\infty}g(x)=0$;  
 &ensp;&ensp;(2) 在区间$(a,+\infty)$内可导,且$g'(x)\neq0$;  
 &ensp;&ensp;(3) $\lim_{x\rightarrow+\infty}\frac{f'(x)}{g'(x)}$存在(或无穷大)  
 则  
 $$\lim_{x\rightarrow+\infty}\frac{f(x)}{g(x)}=\lim_{x\rightarrow+\infty}\frac{f'(x)}{g'(x)}\tag{}$$  
+
+##### 4.2.2 两个无穷大之比的极限($\frac{\infty}{\infty}$型)
+&ensp;&ensp;1. $x\rightarrow x_0$的情形  
+&ensp;&ensp;**定理4.2.3** 如果函数$f(x)$与$g(x)$满足:  
+&ensp;&ensp;(1) 两个函数在$x_0$的某个去心邻域内有定义,且$\lim_{x\rightarrow x_0}(fx)=\infty,\lim_{x\rightarrow x_0}g(x)=\infty$;  
+&ensp;&ensp;(2) 两个函数在上述去心邻域内可导,且$g'(x)\neq0$;  
+&ensp;&ensp;(3) $\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}$存在(或无穷大)  
+则  
+$$\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}\tag{}$$    
+&ensp;&ensp;2. $x\rightarrow\infty$的情形  
+&ensp;&ensp;**定理4.2.4** 如果函数$f(x)$与$g(x)$满足:  
+&ensp;&ensp;(1) 两个函数当$x>a>0$时有定义,且当$x\rightarrow+\infty$时,都趋向于无穷大;  
+&ensp;&ensp;(2) 两个函数的导数当$x>a>0$存在时,且$g'(x)\neq0$;  
+&ensp;&ensp;(3) $\lim_{x\rightarrow+\infty}\frac{f'(x)}{g'(x)}$存在(或无穷大)  
+则  
+$$\lim_{x\rightarrow+\infty}\frac{f(x)}{g(x)}=\lim_{x\rightarrow+\infty}\frac{f'(x)}{g'(x)}\tag{}$$  
+
