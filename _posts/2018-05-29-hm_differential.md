@@ -138,3 +138,29 @@ $$f(x)=f(0)+\frac{f'(0)}{1!}x+\frac{f''(0)}{2!}x^2+\cdots+\frac{f^{(n)}(0)}{n!}x
 &ensp;&ensp;**定理 4.4.2** (由单调性判定极值的第一充分条件) 设函数$f(x)$在点$x_0$的一个邻域内可导,且$x_0$是驻点,即$f'(x_0)=0$.  
 &ensp;&ensp;**定理 4.4.3** (由单调性判定极值的第二充分条件) 设函数$f(x)$在点$x_0$处具有二阶导数,且$f'(x_0)=0,f''(x_0)\neq0$,则当$f''(x_0)<0$(或$f''(x_0)>0$)时,函数$f(x)$在$x_0$处取得极大值(或极小值).  
 
+
+#### 4.5 函数曲线的凹凸性、拐点及函数作图  
+
+##### 4.5.1 曲线的凹凸性与拐点  
+
+&ensp;&ensp;1. 曲线的凹凸性及判别法  
+&ensp;&ensp;**定义 4.5.1** 设$f(x)$在$(a,b)$内连续,若对$(a,b)$内任意两点$x_1,x_2$,,对区间$[x_1,x_2]$的中点$x_0=\frac{x_1+x_2}{2}$,有
+$$f(x_0)=f(\frac{x_1+x_2}{2})<\frac{f(x_1)+f(x_2)}{2}(f(\frac{x_1+x_2}{2})>\frac{f(x_1)+f(x_2)}{2})\tag{}$$  
+成立,称曲线$y=f(x)$在$(a,b)$内为上凹的或为凹弧(上凸的或为凸弧);若$f(x)$在$[a,b]$上连续,且在$(a,b)$内曲线上凹(上凸),也成曲线$y=f(x)$在$[a,b]$上为上凹(上凸).  
+&ensp;&ensp;**定理 4.5.1** 设$f(x)$在$[a,b]$上连续,在$(a,b)$内具有二阶导数,那么若在$(a,b)$内$f''(x)>0(f''(x)<0)$,则在区间$[a,b]$上函数曲线是凹(凸)的.  
+
+&ensp;&ensp;2. 曲线的拐点  
+&ensp;&ensp;**定义 4.5.2** 连续曲线$y=f(x)$上凹弧与凸弧的分界点,称为曲线的拐点.  
+
+
+##### 4.5.2 曲线的渐近线  
+&ensp;&ensp;**1. 水平渐近线**  
+&ensp;&ensp;如果函数$f(x)$符合下列极限之一:$\lim_{x\rightarrow\infty}f(x)=A$或$lim_{x\rightarrow+\infty}f(x)=A$或$lim_{x\rightarrow-\infty}f(x)=A$,我们称直线$y=A$是曲线$y=f(x)$的水平渐近线,此时该渐近线平行于$x$轴.  
+&ensp;&ensp;**2. 铅直渐近线**  
+&ensp;&ensp;如果函数$f(x)$符合下列极限之一:$\lim_{x\rightarrow x_0}f(x)=\infty(\pm\infty)$或$lim_{x\rightarrow x_0^+}f(x)=\infty(\pm\infty)$或$lim_{x\rightarrow x_0^-}f(x)=\infty(\pm\infty)$,我们称直线$x=x_0$是曲线$y=f(x)$的铅直渐近线,此时该渐近线垂直于$x$轴.  
+
+
+##### 4.6.2 曲率  
+&ensp;&ensp;设曲线在点$M$和$M'$的切线与$x$轴的正向夹角分别是$\alpha$和$\alpha+\Delta\alpha$,当点$M$沿曲线$y=f(x)$变到$M'$时,$\Delta\alpha$恰好是切线夹角的增量,而同时改变这个角度所延伸的曲线长度为$M'M=\Delta s$,于是比值$|\frac{\Delta\alpha}{\Delta s}|$来刻画曲线线段$M'M$的平均弯曲程度,$\overline{k}=|\frac{\Delta\alpha}{\Delta s}|$称为平均曲率,若极限值$\lim_{\Delta s\rightarrow0}\overline{k}$存在,称该极限的曲线在点$M(x,y)$处的曲率并记作$k$,有:  
+$$k= |\frac{\Delta\alpha}{\Delta s}|=\lim_{\Delta s\rightarrow0}|\frac{\Delta\alpha}{\Delta s}|\tag{}$$  
+
