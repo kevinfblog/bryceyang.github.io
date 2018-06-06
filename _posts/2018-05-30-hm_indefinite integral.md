@@ -20,18 +20,18 @@ $$\int f(x)dx$$
 $$\int f(x)dx=F(x)+C\quad(C为任意常数)\tag{5.1.1}$$ 
 ### 5.1.2 基本积分表
 
-$\int x^\mu dx=\frac{x^{\mu+1}}{\mu+1}+C(\mu为常数,\mu\neq-1),特别地\int dx=x+C$; 
-$\int\frac{dx}{x}=\ln |x|+C$; 
-$\int \frac{dx}{1+x^2}=\arctan x+C$; 
-$\int \frac{dx}{1-x^2}=\arcsin x+C$; 
-$\int \cos xdx=\sin x+C$ 
-$\int \sin xdx=-\cos x+C$; 
-$\int \frac{dx}{\cos^2x}=\int \sec^2 xdx=\tan x+C$; 
-$\int \frac{dx}{\sin^2x}=\int \csc^2xdx=-\cot x+C$; 
-$\int \sec x\tan xdx=\sec x+C$; 
-$\int \csc x \cot x dx=-\csc x+C$; 
-$\int e^xdx=e^x+C$; 
-$\int a^xdx=\frac{a^x}{\ln a}+C(a>0,a\neq1)$ 
+$\int x^\mu dx=\frac{x^{\mu+1}}{\mu+1}+C(\mu为常数,\mu\neq-1),特别地\int dx=x+C$;   
+$\int\frac{dx}{x}=\ln |x|+C$;   
+$\int \frac{dx}{1+x^2}=\arctan x+C$;   
+$\int \frac{dx}{1-x^2}=\arcsin x+C$;   
+$\int \cos xdx=\sin x+C$   
+$\int \sin xdx=-\cos x+C$;   
+$\int \frac{dx}{\cos^2x}=\int \sec^2 xdx=\tan x+C$;   
+$\int \frac{dx}{\sin^2x}=\int \csc^2xdx=-\cot x+C$;   
+$\int \sec x\tan xdx=\sec x+C$;   
+$\int \csc x \cot x dx=-\csc x+C$;   
+$\int e^xdx=e^x+C$;   
+$\int a^xdx=\frac{a^x}{\ln a}+C(a>0,a\neq1)$   
 ### 5.1.3 不定积分的性质
 
 函数的和的不定积分等于各个函数的不定积分的和,即: 
@@ -50,21 +50,13 @@ $$\int kf(x)dx=k\int f(x)dx\quad(k为常数,且k\neq0)\tag{5.1.3}$$
 求$\int e^{2x}dx$. 如果将被积表达式视为一个微分,即$e^{2x}dx=\frac{1}{2}e^{2x}d(2x)$,所求积分便可化为$\frac{1}{2}\int e^{2x}d(2x)$,并令$u=2x$,则上式就变成了$\frac{1}{2}\int e^udu$,积分得$\frac{1}{2}\int e^udu=\frac{1}{2}e^u+C$,在将$u=2x$代回,得$\int e^{2x}dx=\frac{1}{2}e^{2x}+C$.完整的计算过程是  
 
 $$
-
-\begin{eqnarray}
-
+\begin{array}{l}
 \int e^{2x}dx &=& \frac{1}{2}\int e^{2x}(2x)'dx \\
-
                     &=&\frac{1}{2}\int e^{2x}d(2x) \\
-
                     &=&\frac{2}{2}\int e^udu|_{u=2x} \\
-
                     &=&[\frac{1}{2}e^u+C]_{u=2x} \\
-
                     &=&\frac{1}{2}e^{2x}+C
-
-\end{eqnarray}
-
+\end{array}
 $$  
 
 这样的得到的积分方法称为**换元积分法**,简称**换元法**.换元法有两类,**第一换元法**和**第二换元法**  
